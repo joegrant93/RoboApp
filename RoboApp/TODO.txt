@@ -1,0 +1,9 @@
+﻿Check if parsed initial coordinates of obstacles and robots are within grid boundaries
+	if not then you get a parse error
+
+needs to check if it goes out of bounds BEFORE it completes the journey
+
+go through all code and standardise naming conventions, variable names, arguments etc
+
+
+

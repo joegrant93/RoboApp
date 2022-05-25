@@ -1,0 +1,17 @@
+﻿Is it considered better, while parsing a document to always go to the source when retrieving elements
+For example a function that returns the first line of the robots instructions would be far more concise if it was passed in the 3 lines from.
+If I were to have each function be informed by other functions it feels a lot more breakable, but it feels like there would be a lot of duplicate otherwise.
+
+Just seen the linq select method which I am going to try and use.
+
+The cardinal points were originally objects with a next and previous property. Which for the most part is the same as what is happening now with the array, it might of just improved the readability of the code.
+
+Crashed could be informed by passing in the list of objects after each move, essentially moving that logic from the main to the robot class which would probably be a decent bit neater.
+
+There has got to be a better way to do the logic in main.
+
+Unit testing the fileParser if it remains the same, how should this be done? 
+
+
+path:
+source\repos\RoboApp\RoboApp\bin\Debug\net6.0
